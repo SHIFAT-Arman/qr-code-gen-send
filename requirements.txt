@@ -1,0 +1,31 @@
+# QR Code Generator Dependencies
+# Core dependencies for QR code generation and email automation
+
+# QR Code Generation
+qrcode[pil]==7.4.2
+
+# Google Sheets Integration
+gspread==5.12.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+
+# Environment Variables Management
+python-dotenv==1.0.0
+
+# Image Processing (included with qrcode[pil] but specified for clarity)
+Pillow>=9.0.0
+
+# HTTP Requests (useful for API calls)
+requests>=2.28.0
+
+# Email dependencies (built-in Python modules, listed for reference)
+# smtplib - Built-in Python module for SMTP
+# email - Built-in Python module for email handling
+# time - Built-in Python module for delays
+# os - Built-in Python module for file operations
+# sys - Built-in Python module for system operations
+# uuid - Built-in Python module for UUID generation
+
+# Optional: Enhanced error handling and logging
+# colorama==0.4.6  # For colored terminal output (uncomment if needed)
