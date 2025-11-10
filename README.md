@@ -21,8 +21,6 @@ A comprehensive Python application for generating unique QR codes and sending th
 - [File Structure](#file-structure)
 - [Environment Variables](#environment-variables)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -401,18 +399,6 @@ The terminal interface includes a **"Check Configuration"** option that will:
 - Verify that the service account email has editor access to the sheet
 - Check that the PDF attachment file exists
 - Verify internet connectivity for API calls
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
