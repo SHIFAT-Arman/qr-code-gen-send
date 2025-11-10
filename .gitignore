@@ -1,0 +1,8 @@
+#ignore pycache files
+__pycache__/
+
+.env.local
+credentials.json
+
+#directory
+qr_codes
